@@ -1,0 +1,132 @@
+<html>
+	<head>
+		<meta charset = "utf-8">
+		<title> Bay Area Music Association</title>
+		<link rel="stylesheet" type = "text/css" href = "style.css"/>
+		<link href ="css/font-awesome.min.css" rel = "stylesheet"/>
+		<!--<link rel= "shortcut icon" type = "image/png" href="img/favicon.png"/> -->
+	</head>
+
+	<body onload = "showSlide(1)">
+		<header>
+			<div class = "header-inner">
+				<h2 id = "organization-banner"> <a href="#">BAY AREA MUSIC ASSOCIATION</i></a></h2>
+				<nav>
+					<div id = "menu-icon"><a href = "#"> <i class = "fa fa-bars"></i></a></div>
+					<ul>
+						<li><a href="index.html" class = "current">HOME</a></li>
+						<li class = "dropdown">
+							<a href="#" class = "dropdown-title">EVENTS</i> </a>
+							<ul class = "dropdown-content">
+								<li><a href="#">US International Music Competition</a></li>
+								<li><a href="#">Music Legacy Open Competition</a></li>
+								<li><a href="#">SF International Music Innovative Competition</a></li>
+								<li><a href="#">The Chamber and Vocal Music Festival</a></li>
+								<li><a href="#">Your Favorite Melodies - Now and Then</a></li>
+								<li><a href="#">Russian Music Festival</a></li>
+								<li><a href="#">MA Test</a></li>
+							</ul>
+						</li>
+						<li><a href="#">GALLERY</a></li>
+						<li><a href="#">MEMBERSHIP</a></li>
+						<li  class = "dropdown">
+							<a href="#" class = "dropdown-title" >PEOPLE</i></a>
+							<ul class = "dropdown-content" id = "people">
+								<li class = "people-dp"><a href="#">Our Judges</a></li>
+								<li class = "people-dp"><a href="#">Board of Directors</a></li>
+							</ul>
+						</li>
+						<li><a href="#">CONTACT</a></li>
+					</ul>
+				</nav>
+			</div>
+		</header>
+		<!--End Header-->
+		<div class = "inner-wrapper">
+			<section id = "wrapper1">
+				<div id = "slideshow-container"> 
+					<div class = "mySlides fade" >
+						<img src="home-images/img1.jpg">
+					</div>
+
+					<div class = "mySlides fade">
+						<img src="home-images/img2.jpg">
+					</div>
+
+					<div class = "mySlides fade">
+						<img src="home-images/img3.jpg">
+					</div>
+
+					<div class = "mySlides fade">
+						<img src="home-images/img4.jpg">
+					</div>
+
+					<div class = "mySlides fade">
+						<img src="home-images/img5.jpg">
+					</div>
+
+					<script src = "myScript.js"></script>
+
+					<a class = "prev" onclick=  "addSlides(-1)">&#10094;</a>
+					<a class = "next" onclick = "addSlides(1)">&#10095;</a>
+
+
+					<div id = "dots" style = "text-align: center;" >
+						<span><i class="fa fa-circle active" aria-hidden="true" onclick = "currentSlide(1)"></i></span>
+						<span><i class="fa fa-circle" aria-hidden="true" onclick = "currentSlide(2)"></i></span>
+						<span><i class="fa fa-circle" aria-hidden="true" onclick = "currentSlide(3)"></i></span>
+						<span><i class="fa fa-circle" aria-hidden="true" onclick = "currentSlide(4)"></i></span>
+						<span><i class="fa fa-circle" aria-hidden="true" onclick = "currentSlide(5)"></i></span>
+					</div>
+
+				</div>	
+			
+
+
+
+
+				<article id = "upcoming">
+					<h3><span style = "color: #f97840;"">| </span>UPCOMING EVENTS</h3>
+					<ul>
+						<li><span class = "date">JAN 22, 2017</span><br>US International Music Competition</li>
+						<li class = "learn-more"><a href="#">Learn more ></a></li>
+						<li><span class = "date">JAN 30, 2017</span><br>SF International Music Innovative Competition</li>
+						<li class = "learn-more"><a href="#">Learn more ></a></li>
+						<li><span class = "date">FEB 30, 2017</span><br>Music Legacy Open Competition</li>
+						<li class = "learn-more"><a href="#">Learn more ></a></li>
+						<li><span class = "date">MAR 20, 2017</span><br>Chamber and Vocal Music Festival</li>
+						<li  class = "learn-more"><a href="#">Learn more ></a></li>
+					</ul>
+				</article>
+			</section>
+			<!--end image slider + upcoming events section-->
+
+			<article id = "about">
+				<div id = "about-title">
+					<h3>ABOUT</h3>
+				</div>
+				<div id = "about-dis">
+					<p>
+						Bay Area Music Association was founded in 2007. Bay Area Music Association (BAMA) is a non-profit organization dedicated to inspire young talents by promoting and exposing individuals of all ages and levels to music. BAMA offers a wide range of events: competitions, festivals, master classes and seminars for professional musicians. 
+					</p>
+					<p>
+						We began by holding music festivals around Bay Area with focus on discovering young raw talents and giving them an opportunity to expand in the musical arena. Since 2007, Young Artist Music Festivals have grown to a bi-annual event held in San Francisco, Berkeley, San Jose, Palo Alto,  San Carlos and ﻿Foster City. 
+					</p>
+					<p>	
+						By 2008  the higher professional level and changes of repertoire requirements lead us to a new direction - Music Legacy  Festival . In the winter of 2010 we held our first Honor Recital where the best students from the Music Legacy Festival performed at the concert. The same year  we transformed Music Legacy Festival into Music Legacy Open Competition which has welcomed a world famous pianist Yefim Bronfman as our distinguished patron. 
+					</p>
+					<p>	
+						In 2014 Bay Area Music Association launched another event: US International Music Competition witch has different format from Music Legacy Open Competition. We are pleased to have more Bay Area participants as well as contestants from other countries.﻿
+					</p>
+				</div>
+			</article>
+		</div>
+		<footer>
+			<ul class = "social">
+				<li><a href="https://www.facebook.com/BayAreaMusicAssociation/" target = "_blank"><i class = "fa fa-facebook"></i></a></li>
+				<li><a href="https://www.youtube.com/user/BayAreaMusicAssoc" target = "_blank"><i class = "fa fa-youtube"></i></a></li>
+			</ul>
+			<p id = "copyright">&copy;Bay Area Music Association</p>
+		</footer>
+	</body>
+</html>
